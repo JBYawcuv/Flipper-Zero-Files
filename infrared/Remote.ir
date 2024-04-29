@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Upstairstvpower
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+# 
+name: Upstairs_tv_vol_up
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 0F F0 00 00
+# 
+name: Upstairs_tv_vol_down
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 10 EF 00 00
+# 
+name: Tv_power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+# 
+name: Tv_vol_up
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: Tv_vol_down
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 13 00 00 00
+# 
+name: Tv_ok_button
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 65 00 00 00
+# 
+name: Tv_left_button
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 34 00 00 00
+# 
+name: Tv_right_button
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 33 00 00 00
+# 
+name: Tv_up_button
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 74 00 00 00
+# 
+name: Tv_down_button
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 75 00 00 00
+# 
+name: Tv_back_button
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 23 00 00 00

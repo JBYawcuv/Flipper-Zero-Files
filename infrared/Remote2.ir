@@ -1,0 +1,14 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Chup
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: Chdown
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 11 00 00 00
